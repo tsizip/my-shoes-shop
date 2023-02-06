@@ -1,0 +1,29 @@
+.product {
+     .card {
+          position: relative;
+          .icon{
+               position: absolute;
+               right: 10px;
+               font-size: 30px;
+               color: red;
+          }
+          .row {
+               margin: 0;
+               width: 100%;
+               .col-6 {
+                    padding: 0;
+                    .price {
+                         // height: 100%;\
+                         padding: 7.5px;
+                         background: gray;
+                         text-align: center;
+                         color: white;
+                    }
+               }
+               .btn {
+                    border-radius: unset;
+                    width: 100%;
+               }
+          }
+     }
+}
